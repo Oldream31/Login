@@ -1,0 +1,70 @@
+header {
+    background-color: rgb(97, 80, 52);
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(97, 80, 52);
+}
+.contenedor {
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+    align-items: flex-start; 
+}
+
+
+.posicionamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.posicionamiento1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+}
+
+.login {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(151, 123, 78, 0.587);
+    color:  rgb(255, 255, 255);
+    width: 30%;
+    height: 55%;
+    text-align: center;
+}
+.h2 {
+    font-size: 30px;
+}
+
+#margen {
+    margin-block-end: 20px;
+ }
+ 
+ button {
+    color: white; /* Cambia el color del texto del botón a blanco */
+    background-color:  rgb(176, 150, 111); /* Cambia el color de fondo del botón a azul */
+    border: none; /* Quita el borde del botón*/
+    padding: 10px 30px; /* Añade un relleno al botón*/
+    border-radius: 5px; /* Añade esquinas redondeadas al botón*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px; /* Cambia el tamaño del texto del campo de entrada  */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia el tipo de letra o fuente */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
