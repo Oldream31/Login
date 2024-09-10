@@ -1,11 +1,10 @@
 header {
-    background-color: rgb(97, 80, 52);
+    background-color: rgb(207, 191, 155);
     color: rgb(255, 255, 255);
-    padding-left: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
-    background-color: rgb(97, 80, 52);
+    background-color: rgb(207, 191, 155);
 }
 .contenedor {
     display: flex;
@@ -14,6 +13,11 @@ body {
     align-items: flex-start; 
 }
 
+.Logo {
+    margin-left: 10px;
+    margin-top: 3%;
+    text-align: center;
+}
 
 .posicionamiento {
     display: flex;
@@ -30,12 +34,13 @@ body {
 }
 
 .login {
-    padding: 20px;
+    padding: 30px;
+    padding-top: 50px;
     border-radius: 10px;
-    background-color: rgba(151, 123, 78, 0.587);
-    color:  rgb(255, 255, 255);
-    width: 30%;
-    height: 55%;
+    background-color: rgb(125, 78, 71);
+    color:  rgba(255, 255, 255, 0.888);
+    width: 34%;
+    height: 58%;
     text-align: center;
 }
 .h2 {
@@ -47,24 +52,29 @@ body {
  }
  
  button {
-    color: white; /* Cambia el color del texto del botón a blanco */
-    background-color:  rgb(176, 150, 111); /* Cambia el color de fondo del botón a azul */
-    border: none; /* Quita el borde del botón*/
-    padding: 10px 30px; /* Añade un relleno al botón*/
-    border-radius: 5px; /* Añade esquinas redondeadas al botón*/
+    color: white; 
+    background-color:  rgb(159, 113, 98); 
+    border: none; 
+    padding: 10px 30px; 
+    border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    transition: background-color 0.5s; 
 }
+button:hover {
+    background-color: #e7c79c; 
+  }
+
+
 
 input[type="text"],
 input[type="password"] {
-    font-size: 20px; /* Cambia el tamaño del texto del campo de entrada  */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia el tipo de letra o fuente */
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
