@@ -2,8 +2,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     event.preventDefault(); // Evita el envío del formulario
 
     // Usuario y contraseña predefinidos
-    const correctUsername = "jenifer";  // Cambia "miUsuario" por el usuario que desees
-    const correctPassword = "777"; // Cambia "miContraseña" por la contraseña que desees
 
     // Obtener los valores ingresados
     const usernameInput = document.getElementById("username").value;
